@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Installing Dependencies (nothing to install)"
+      - echo Installing Dependencies
   build:
     commands:
-      - echo "Build step completed successfully"
+      - echo Build step completed
 artifacts:
   files:
     - '**/*'
